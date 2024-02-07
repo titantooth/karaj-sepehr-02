@@ -3,7 +3,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section>
+    <section id='home'>
+        <div className=''>
+          <Image className='absolute top-40 -left-20 z-10' src='/ghazaee.png' alt='logo' width={600} height={600} ></Image>
+        </div>
         <div>
             <Image className='absolute -right-10' src='/hero-bg.png' alt='blue art' height={900} width={900} />
 

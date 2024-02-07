@@ -5,11 +5,11 @@ import Link from 'next/link'
 
 const Products = () => {
   return (
-    <section className='relative mt-[620px] flexCenter flex flex-col '>
-        <h1 className='text-center bold-40 py-5'>
+    <section id='services' className='relative mt-[620px] flexCenter flex flex-col '>
+        <h1 className='text-center bold-40 py-5 text-blue-950'>
             خدمات ما
         </h1>
-        <p className='text-center regular-14 py-4 max-w-[800px] '>
+        <p className='text-center regular-14 py-4 max-w-[800px] text-blue-950 '>
         علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد
         </p>
         <div  className='flex justify-evenly gap-20 bg-blue-600 py-10 px-30 w-[900px] rounded-full text-blue-950'>
